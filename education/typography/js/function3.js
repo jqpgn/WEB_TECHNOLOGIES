@@ -7,7 +7,7 @@ function find_edit_name() {
 
     const div5 = document.getElementsByTagName('div')[5]
     console.log(div5.innerText)
-    div5.innerText = 'Anastasia'
+    div5.innerText = 'Anastasiya'
 
     const div6 = document.getElementsByTagName('div')[6]
     console.log(div6.innerText)
