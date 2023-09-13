@@ -1,3 +1,3 @@
 # WEB_TECHNOLOGIES
 
-https://github.com/jqpgn/WEB_TECHNOLOGIES/blob/main/education/typography/index.html
+https://jqpgn.github.io/WEB_TECHNOLOGIES/blob/main/education/typography/index.html
