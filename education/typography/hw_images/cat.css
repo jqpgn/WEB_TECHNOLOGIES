@@ -17,5 +17,5 @@ img.rounded-corners {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
-    transition: 1s ease;
+    transition: 1s ease-in-out;
 }
