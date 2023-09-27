@@ -1,4 +1,4 @@
-let more = document.querySelector('.more');
+let more = document.querySelector('.rounded_corners_2');
 let audioArr = document.getElementsByTagName('audio');
 console.log('audioArr')
 more.addEventListener('mouseenter', ()=>
