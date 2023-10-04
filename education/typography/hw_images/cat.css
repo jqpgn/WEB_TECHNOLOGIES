@@ -33,6 +33,12 @@ img.more {
     font-family: montserrat;
     text-decoration: none;
 }
+p {
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: montserrat;
+    text-decoration: none;
+}
 
 a {
     text-decoration: none;
