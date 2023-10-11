@@ -8,5 +8,6 @@ https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/passport_find_edit
 https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/image.html
 https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/hw_images/hometask_1.html
 https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/tables/menu.html
+https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/algorithm/algorithm.html
 
 **Контрольная работа:**
