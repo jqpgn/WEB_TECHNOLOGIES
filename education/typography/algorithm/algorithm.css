@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Montserrat
+}
+
+p {
+    text-align: center;
+}
+
+#parent {
+    position: relative;
+}
+
+.img {
+    z-index: 1;
+    position: absolute;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: -90px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.grow {
+    transition: 0.7s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.08);
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #d4d4d4;
+}
+
+.wrapper {
+    z-index: 0;
+    position: relative;
+    color: #d4d4d4;
+    width: 320px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    padding: 30px 40px;
+    align-items: center;
+}
+
+.wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.input-box input {
+    display: flex;
+    width: 85%;
+    height: 30%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    padding: 20px 40px 20px 20px;
+    color: #d4d4d4;
+    font-size: 16px;
+}
+
+.input-box input::placeholder {
+    color: rgb(145, 145, 145);
+
+}
+
+.wrapper .checker {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -5px 0 10px;
+    font: inherit;
+    border-radius: 0.15em;
+    margin-left: 5px;
+}
+
+.checker label input {
+    accent-color: #d4d4d4;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 90%;
+    background-color: #d4d4d4;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 15px 10px 15px 10px;
+}
+
+.btn:hover {
+    background-color: #989898;
+}
+
+.btn {
+    -webkit-transition: background-color 0.6s ease-out;
+    -moz-transition: background-color 0.6s ease-out;
+    -o-transition: background-color 0.6s ease-out;
+    transition: background-color 0.6s ease-out;
+}
+
+.grow-btn {
+    transition: all 0.9s ease-in-out;
+}
+
+.grow-btn:hover {
+    transform: scale(1.07);
+}
+
+h4 {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #d4d4d4;
+    font-weight: 500;
+    margin-top: 710px;
+}
