@@ -8,6 +8,6 @@ https://raw.githack.com/jqpgn/WEB_TECHNOLOGIES/main/education/typography/passpor
 https://raw.githack.com/jqpgn/WEB_TECHNOLOGIES/main/education/typography/image.html
 https://raw.githack.com/jqpgn/WEB_TECHNOLOGIES/main/education/typography/hw_images/hometask_1.html
 https://raw.githack.com/jqpgn/WEB_TECHNOLOGIES/main/education/typography/tables/menu.html
-https://jqpgn.github.io/WEB_TECHNOLOGIES/menu.html
+https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/tables/menu.html
 
 **Контрольная работа:**
