@@ -9,5 +9,5 @@ https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/image.html
 https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/hw_images/hometask_1.html
 https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/tables/menu.html
 https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/algorithm/algorithm.html
-
+https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/bill.html
 **Контрольная работа:**
