@@ -1,0 +1,17 @@
+h4 {
+    font-weight: bold;
+}
+
+body {
+    display: relative;
+    min-height: 110vh;
+    font-family: Montserrat
+}
+
+form {
+    font-family: Montserrat
+}
+
+.btn {
+    font-family: Montserrat
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета</title>
+    <link rel="stylesheet" href="bill.css">
+</head>
+
+<body>
+    <h3>Анкета посетителя ресторана</h3>
+    <form action="https://ya.ru/search?" id="UserEnter" name="UserEnter" target="_blank">
+        <h4>Контактная информация</h4>
+        <p>Имя: <input name="name" size=20 type="Text" id="name"></p>
+        <p>Телефон: <input name="number" size=20 type="integer"></p>
+        <p>Дата посещения: <input id='date' name="user_date" type="date" value='2023-01-01'></p>
+        <h4>Персональная информация</h4>
+        <p>Город, в котором Вы посетили наш ресторан: <br> <br>
+            <input checked name="place" type="Radio" value="Moscow">Москва <br>
+            <input checked name="place" type="Radio" value="Petersburg">Санкт-Петербург <br>
+            <input checked name="place" type="Radio" value="Nizhny">Нижний Новгород
+        </p>
+        <p>Возраст: <input name="age" size="20" type="integer"></p>
+        <p>Любимая кухня: <select name="cuisine" id="cuisine">
+                <OPTION value="Русская">Русская</OPTION>
+                <OPTION value="Китайская">Китайская</OPTION>
+                <OPTION value="Итальянская">Итальянская</OPTION>
+            </select></p>
+        <p> Какие блюда Вы бы хотели увидеть в меню?
+            <br>
+            <TEXTAREA cols=50 name="textarea" rows=5></TEXTAREA>
+        </p>
+        <h4>Почему Вы выбрали наше заведение?</h4>
+        <p>
+            <input  name="experience" type="Checkbox" value="1">Недалеко от дома/работы <br>
+            <input  name="experience" type="Checkbox" value="2">Увидел рекламу <br>
+            <input  name="experience" type="Checkbox" value="3">Посоветовали <br>
+            <input name="experience" type="Checkbox" value="4">Оптимальное соотношение цены и качества
+        </p>
+        <p>Стали бы Вы рекомендовать ресторан друзьям и знакомым? <br> <br>
+            <input name="place" type="Radio" value="Yes">Да <br>
+            <input checked name="place" type="Radio" value="No">Нет
+            </p>
+        <h4>Какую сумму Вы потратили?</h4>
+        <p>
+            <input name="place" type="Radio" value="Больше 100" id="choice1">Больше 100 у.е. <br></p>
+            <p><input checked name="place" type="Radio" value="Меньше 100" id="choice2">Меньше 100 у.е.
+        </p>
+
+        <div class="btn">
+            <p>
+                <fieldset>
+                    <input type='checkbox' name="tochka" id='tch' value="Показать чек" onclick="check(this.form)">Показать чек
+                    <h4 id="result">Ваш чек:</h4>
+                  </fieldset>
+            </p>
+        </div>
+        <p><input name="Reset" type="Reset" value="Обновить" class="btn"></p>
+        <p><input class ='btn' id="send" name="submit" type="Submit" value="Отправить"></p>
+    </form>
+    <script src="./bill.js"></script>
+</body>
+
+</html>
