@@ -10,26 +10,19 @@
     <div id="parent">
     <div class="img"><img src="tri.png" width="120px"; class="grow" alt="Треугольник"></div>
     <div class="wrapper">
-        <form action="" method="get" id="form">
+        <form action="https://ya.ru//search?" method="get" id="form" target="_blank">
             <h1>Треугольники</h1>
             <p>Введите три числа (a, b, c), чтобы узнать, могут ли они быть длинами сторон треугольника</p>
             <div class="input-box">
-                <input id="a" type="integer" placeholder="a" required>
+                <input id="a" type="integer" placeholder="a" required name="a">
             </div>
             <div class="input-box">
-                <input id="b" type="integer" placeholder="b" required>
+                <input id="b" type="integer" placeholder="b" required name="b">
             </div>
             <div class="input-box">
-                <input id="c" type="integer" placeholder="c" required>
+                <input id="c" type="integer" placeholder="c" required name="c">
             </div>
-            <div class="checker">
-                <label><input type="checkbox" class="larger">Проверить, существует ли треугольник 
-                    с такими сторонами</label>
-            </div>
-            <div class="checker" id="check">
-                <label><input type="checkbox" class="larger">Проверить, прямоугольный ли это треугольник</label>
-            </div>
-            <div class="grow-btn"><button type="submit" class="btn" id="verify" onclick="displayText()">Проверить</button></div>
+            <div class="grow-btn"><button class="btn" id="send" onclick="send()">Отправить</button></div>
         </form>
     </div>
 </div>
