@@ -10,8 +10,9 @@ body {
     font-family: Montserrat
 }
 
-p {
+.p {
     text-align: center;
+    font-weight: 500;
 }
 
 #parent {
@@ -129,6 +130,12 @@ h4 {
     position: absolute;
     color: #d4d4d4;
     font-weight: 500;
-    margin-top: 620px;
+    margin-top: 630px;
+    text-align: center;
 }
 
+.result {
+    color: #d4d4d4;
+    font-weight: 2;
+    text-align: center;
+}
