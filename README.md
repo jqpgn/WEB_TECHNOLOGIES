@@ -15,12 +15,12 @@ https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/homework.
 **Контрольная работа:**
 > [!NOTE]
 > [Контрольная работа]
-
+>
 > [Страница с тремя домашними заданиями](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/homework.html)
-
+>
 > [DOM_JS. Считываем информацию из DOM](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/h1.html)
- 
+> 
 > [Изменяем кириллицу на латиницу по клику](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/h2.html)
-
+> 
 > [Решение алгоритмической задачи](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/h3.html)
  
