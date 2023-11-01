@@ -23,4 +23,6 @@ https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/homework.
 > [Изменяем кириллицу на латиницу по клику](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/h2.html)
 > 
 > [Решение алгоритмической задачи](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/h3.html)
+>
+> [Решение алгоритмической задачи в виде формы](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/algorithm/algorithm.html)
  
