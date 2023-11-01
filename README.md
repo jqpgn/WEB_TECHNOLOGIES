@@ -13,3 +13,5 @@ https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/bill.html
 https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/homework.html
 
 **Контрольная работа:**
+> [!NOTE]
+> [Highlights information that users should take into account, even when skimming.](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/homework.html)https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/homework.html
