@@ -14,6 +14,7 @@ https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/homework.
 
 **Контрольная работа:**
 > [!NOTE]
+> [Контрольная работа]
 > [Страница с тремя домашними заданиями](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/homework.html)
 > 
 > [DOM_JS. Считываем информацию из DOM](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/h1.html)
