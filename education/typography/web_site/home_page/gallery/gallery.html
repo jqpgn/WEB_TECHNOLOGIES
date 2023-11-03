@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея</title>
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <link rel="stylesheet" href="gallery.css">
+    <script src="js/gallery.js" defer></script>
+</head>
+<body>
+  
+  <header class="header-home">
+    <a href="#"><img class="logo" src="./images/logo.png"></a>
+    <nav class="navbar">
+      <a href="#">Галерея</a>
+      <a href="#">Журнал</a>
+      <a href="#">Мероприятия</a>
+      <a href="#">Магазин</a>
+    </nav>
+    <a href="#"><img class="sign-in" src="./images/sign_in.png" width="40px"></a></header>
+
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+
+  <div id="myModal2" class="modal2">
+    <span class="close2">&times;</span>
+    <img class="modal-content2" id="img02">
+    <div id="caption2"></div>
+  </div>
+  
+  <div id="myModal3" class="modal3">
+    <span class="close3">&times;</span>
+    <img class="modal-content3" id="img03">
+    <div id="caption3"></div>
+  </div>
+
+  <div id="myModal4" class="modal4">
+    <span class="close4">&times;</span>
+    <img class="modal-content4" id="img04">
+    <div id="caption4"></div>
+  </div>
+
+  <div id="myModal5" class="modal5">
+    <span class="close5">&times;</span>
+    <img class="modal-content5" id="img05">
+    <div id="caption5"></div>
+  </div>
+
+  <div id="myModal6" class="modal6">
+    <span class="close6">&times;</span>
+    <img class="modal-content6" id="img06">
+    <div id="caption6"></div>
+  </div>
+
+  <div id="myModal7" class="modal7">
+    <span class="close7">&times;</span>
+    <img class="modal-content7" id="img07">
+    <div id="caption7"></div>
+  </div>
+
+  <div id="myModal8" class="modal8">
+    <span class="close8">&times;</span>
+    <img class="modal-content8" id="img08">
+    <div id="caption8"></div>
+  </div>
+
+  <div id="myModal9" class="modal9">
+    <span class="close9">&times;</span>
+    <img class="modal-content9" id="img09">
+    <div id="caption9"></div>
+  </div>
+
+  <div id="myModal10" class="modal10">
+    <span class="close10">&times;</span>
+    <img class="modal-content10" id="img010">
+    <div id="caption10"></div>
+  </div>
+
+  <div id="myModal11" class="modal11">
+    <span class="close11">&times;</span>
+    <img class="modal-content11" id="img011">
+    <div id="caption11"></div>
+  </div>
+  
+
+
+  <div class="wrapper">
+    <div class="content">
+      <header class="hero-section">
+        <img data-speed=".6" class="hero" src="images/1.png" alt="">
+        <div class="container">
+          <div data-speed=".5" class="main-header">
+            <h1 class="main-title">Жизнь Иосифа Бродского</h1>
+            <h2 class="main-title-mini">в фотографиях</h2>
+          </div>
+        </div>
+      </header>
+      <div class="life-gallery">
+        <div class="container">
+          <main class="gallery">
+            <div data-speed=".9" class="gallery__left">
+              
+              <img id="popup" class="gallery__item" src="./images/2.jpeg" alt="Иосиф Бродский в молодости. 1960 год.">
+              <img id="popup2" class="gallery__item" src="./images/4.jpg" alt="Иосиф Бродский в ссылке на поселении в Архангельской области, 1965 год.">
+              <div class="text-block gallery__item">
+              <h2 class="text-block__h">«Окололитературный трутень»</h2>
+              <p class="text-block__p">Знаменитая статья &laquo;Окололитературный трутень&raquo; в&nbsp;<a href="https://ru.wikipedia.org/wiki/Вечерний_Петербург" target="_blank">&laquo;Вечернем Ленинграде&raquo;</a>
+                 от&nbsp;29&nbsp;ноября 1963 года&nbsp;&mdash; важнейший текст в&nbsp;истории борьбы с&nbsp;тунеядством, 
+                не&nbsp;только потому, что ее&nbsp;герой&nbsp;&mdash; Бродский. В&nbsp;этом выдающемся публичном доносе 
+                сконцентрировано такое количество риторических штампов, что хватило&nbsp;бы на&nbsp;целую 
+                <a href="https://arzamas.academy/materials/676#:~:text=%D0%B1%D1%8B%20%D0%BD%D0%B0%C2%A0%D1%86%D0%B5%D0%BB%D1%83%D1%8E-,%C2%AB%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8E%20%D0%B4%D0%B0%D1%80%D0%BC%D0%BE%D0%B5%D0%B4%D0%BE%D0%B2%C2%BB,-%2C%20%D0%BA%D0%B0%D0%BA%D0%B8%D0%B5%20%D0%B2%D0%BE%C2%A0%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5" target="_blank">&laquo;галерею дармоедов&raquo;</a>, какие во&nbsp;множестве печатали советские газеты.</p>
+            </div>
+            <img id="popup5" class="gallery__item" src="./images/6.jpeg" alt="Американский кабинет Иосифа Бродского 
+            в Музее Анны Ахматовой в Фонтанном доме. Фотография 2014 года.">
+            <img id="popup7" class="gallery__item" src="./images/8.jpg" alt="Иосиф Бродский в Мичиганском университете. 1972 год.">
+            <img id="popup9" class="gallery__item" src="./images/10.jpg" alt="В 1987 года Бродскому была присуждена Нобелевская премия 
+            по литературе с формулировкой «за всеобъемлющую литературную деятельность, отличающуюся ясностью мысли и поэтической интенсивностью».">
+            <img id="popup10" class="gallery__item" src="./images/11.jpg" alt="Иосиф Бродский с Марией Соццани. 1994 год.">
+            <div id="afterwords" class="text-block gallery__item">
+              <h2 class="text-block__h">Смерть и погребение</h2>
+              <p class="text-block__p">27&nbsp;января 1996 года в&nbsp;субботу, в&nbsp;Нью-Йорке Бродский <a href='https://shorturl.at/htBJ9' target="_blank">готовился ехать 
+                в&nbsp;Саут-Хэдли</a> и&nbsp;собрал в&nbsp;портфель рукописи и&nbsp;книги, чтобы на&nbsp;следующий день 
+                взять с&nbsp;собой. Утром жена обнаружила его на&nbsp;полу в&nbsp;кабинете. Бродский был полностью одет; 
+                на&nbsp;письменном столе рядом с&nbsp;очками лежала раскрытая книга&nbsp;&mdash; двуязычное издание греческих эпиграмм. <br><br>Причина смерти&nbsp;&mdash; 
+                внезапная остановка сердца вследствие инфаркта.</p>
+            </div>
+            
+      
+            </div>
+            <div data-speed="1.1" class="gallery__right">
+              
+              <div class="text-block gallery__item">
+              <h2 class="text-block__h">Ленинградская юность</h2>
+              <p class="text-block__p">Иосиф Бродский родился в&nbsp;Ленинграде в&nbsp;1940&nbsp;году. В&nbsp;первый год войны после блокадной зимы 1941&ndash;1942 годов мать Иосифа Мария Вольперт вывезла его в&nbsp;эвакуацию в&nbsp;Череповец, 
+                где они жили до&nbsp;1944&nbsp;года. Иосиф часто менял школы; не&nbsp;увенчалась успехом и&nbsp;его попытка поступить после седьмого класса в&nbsp;морское училище. В&nbsp;1955 году он&nbsp;ушел из&nbsp;восьмого класса 
+                и&nbsp;устроился на&nbsp;<a href="https://ru.wikipedia.org/wiki/Арсенал_(завод,_Санкт-Петербург)" target="_blank">завод &laquo;Арсенал&raquo;</a href> фрезеровщиком. Затем работал помощником прозектора в&nbsp;морге, кочегаром, фотографом.</p>
+            </div>
+              <img id="popup3" class="gallery__item" src="./images/3.jpg" alt="Личная карточка И. А. Бродского в отделе кадров «Арсенала». 1956 год.">
+              <img id="popup4" class="gallery__item" src="./images/5.png" alt="Ионин А., Лернер Я., Медведев Д. Окололитературный трутень // «Вечный Ленинград». 1963 год.">
+              <div class="text-block gallery__item">
+                <h2 class="text-block__h">В эмиграции. Отъезд</h2>
+                <p class="text-block__p">Чемодан, с&nbsp;которым 4&nbsp;июня 1972 года Иосиф Бродский навсегда покинул Родину, увозя пишущую машинку, две бутылки водки для <a href="https://ru.wikipedia.org/wiki/Оден,_Уистен_Хью" target="_blank">Уистена Хью Одена</a> и&nbsp;сборник стихов <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BD%D0%BD,_%D0%94%D0%B6%D0%BE%D0%BD" target="_blank">Джона Донна</a>.</p>
+              </div>
+              <img id="popup6" class="gallery__item" src="./images/7.png" alt="Преподаватель Мичиганского университета Иосиф Бродский. 1973 год.">
+              <div class="text-block gallery__item">
+                <h2 class="text-block__h">Жизнь в Соединённых Штатах</h2>
+                <p class="text-block__p">В&nbsp;июле 1972 года Бродский переехал в&nbsp;США и&nbsp;принял пост &laquo;приглашённого поэта&raquo; в&nbsp;<a href="https://ru.wikipedia.org/wiki/Мичиганский_университет" target="_blank"> Мичиганском университете в&nbsp;Энн-Арборе</a>, где преподавал с&nbsp;перерывами до&nbsp;1980&nbsp;года. С&nbsp;этого момента закончивший в&nbsp;СССР неполные 8&nbsp;классов средней школы Бродский вёл жизнь университетского преподавателя, занимая на&nbsp;протяжении последующих 24&nbsp;лет профессорские должности в&nbsp;общей сложности в&nbsp;шести американских и&nbsp;британских университетах.</p>
+              </div>
+              <img id="popup8" class="gallery__item" src="./images/9.jpg" alt="Иосиф Бродский в Мичиганском университете. 1972 год.">
+              <div class="text-block gallery__item">
+                <h2 class="text-block__h">Последние годы жизни</h2>
+                <p class="text-block__p">В&nbsp;1991 году Бродский занял пост поэта-лауреата США&nbsp;&mdash; консультанта Библиотеки Конгресса и&nbsp;запустил <a href="https://shorturl.at/rswIS" target="_blank">программу &laquo;Американская поэзия и&nbsp;грамотность&raquo;</a> 
+                по&nbsp;распространению среди населения дешевых томиков стихов. В&nbsp;1990 году поэт женился на&nbsp;итальянке с&nbsp;русскими корнями Марии Соццани, но&nbsp;их&nbsp;счастливому союзу было отпущено всего пять с&nbsp;половиной лет.</p>
+              </div>
+              <img id="popup11" class="gallery__item" src="./images/12.jpg" alt="Общий вид могилы Иосифа Бродского на кладбище Сан-Микеле, Венеция. Год неизвестен.">
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+  </div>
+    <img id="anchor" src="./images/anchor.png" width="35px" onclick="scrollWin()">
+</body>
+</html>
