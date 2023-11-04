@@ -10,7 +10,6 @@ https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/hw_images/hometask
 https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/tables/menu.html
 https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/algorithm/algorithm.html
 https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/bill.html
-https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/homework.html
 
 **Контрольная работа:**
 > [!NOTE]
