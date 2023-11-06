@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Форма отзыва</title>
+  <script src="libs/gsap/gsap.min.js" defer></script>
+  <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+  <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+  <link rel="stylesheet" href="review_form.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <script src="../js/offer.js" defer></script>
+</head>
+
+<body>
+
+  <a href="#"><img class="logo_2" src="./images/logo.png"></a>
+
+
+  <div class="wrapper">
+    <div class="content">
+      <header class="header-home">
+        <a href="#"><img class="logo" src="./images/logo.png"></a>
+        <nav class="navbar">
+          <a href="./gallery.html">Галерея</a>
+          <a href="#">Журнал</a>
+          <a href="../events/events.html">Мероприятия</a>
+          <a href="#">Магазин</a>
+        </nav>
+        <a href="#"><img class="sign-in" src="./images/sign_in.png"
+            width="40px"></a>
+      </header>
+      <header class="hero-section">
+        <div data-speed=".6" class="hero">
+          <form action="https://www.ya.ru/search?" id="UserEnter" name="UserEnter" target="_blank" class="form">
+            <h3>Отзыв <br>на мероприятие</h3>
+            <div class="titles"><h4>Какое мероприятие вы посетили:</h4></div>
+            <div class="input-box">
+              <input type="text" placeholder="Название мероприятия" name="event">
+            </div>
+            <div class="titles"><h4>Дата:</h4></div>
+            <div class="radio-date">
+              <input type="date" value="2023-11-08">
+            </div>
+            <div class="titles"><h4>Мероприятие Вам:</h4></div>
+            <div class="radio-align">
+              <div class="input-box-radio">
+                <input type="radio" id="like" name="like-dislike" value="Понравилось" checked />
+                <label for="like">Понравилось</label>
+              </div>
+              <div class="input-box-radio">
+                <input type="radio" id="dislike" name="like-dislike" value="Не понравилось" />
+              <label for="dislike">Не понравилось</label>
+              </div>
+              <div class="input-box-radio">
+                <input type="radio" id="not_given" name="like-dislike" value="Свой ответ" />
+              <label for="not_given">Свой ответ</label>
+              </div>
+            </div>
+            <h4 class="title">Ваш комментарий:</h4>
+            <textarea id="comment" name="comment" rows="5" cols="45"></textarea>
+            <div class="thanks"><h4>Спасибо за Ваш комментарий!</h4><p>Мы учтем все недочеты <br>в наших будущих мероприятиях!</p></div>
+            <div class="grow-btn"><button class="btn" id="register"
+                onclick="send(this.form)">Отправить</button></div>
+          </form>
+        </div>
+        <div class="container">
+          <div data-speed=".5" class="main-header">
+            <h1 class="main-title">От-<br>зыв</h1>
+          </div>
+        </div>
+        <div class="hide">
+          <img class="line" src="../gallery/images/line.png" height="100px" width="80px">
+        </div>
+        <div class="hide">
+          <img class="line" src="../gallery/images/line.png" height="100px" width="80px">
+        </div>
+      </header>
+      <section class="footer">
+        <div class="footer-content">
+          <img class="footer-logo" src="images/logo.png">
+          <div class="icons">
+            <a href="https://www.youtube.com/watch?v=l9j6_HufWMc"><i class='bx bxl-youtube'></i></a>
+            <a href="https://vk.com/video-29094228_165525295"><i class='bx bxl-vk'></i></a>
+            <a href="https://vk.com/video-29094228_165525295"><i class='bx bxl-telegram'></i></a>
+            <a href="https://www.instagram.com/p/CSKHBhRlOo2/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="><i
+                class='bx bxl-instagram'></i></a>
+          </div>
+          <p>История, литература, искусство в лекциях, статьях, играх: об искусстве нескучно <br>
+            <br>© 2023 ИБ. Все права защищены
+          </p>
+        </div>
+        <div class="footer-content">
+          <h4>Проект</h4>
+          <ul>
+            <li><a href="../main about_us/about_us.html">О нас</a></li>
+            <li><a href="#">Главная</a></li>
+            <li><a href="./gallery.html">Галерея</a></li>
+            <li><a href="../events/events.html">Мероприятия</a></li>
+            <li><a href="#">Магазин</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h4>ИБ</h4>
+          <ul>
+            <li><a href="#">Рекомендации</a></li>
+            <li><a href="#">Инвесторы</a></li>
+            <li><a href="#">Политика <br>конфиденциальности</a></li>
+            <li><a href="#">Правила и условия</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h4>Помощь</h4>
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Связаться с нами</a></li>
+            <li><a href="#">Настройки cookie</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h4>Дополнительно</h4>
+          <ul>
+            <li><a href="../algorithm/algorithm.html">Алгоритм</a></li>
+            <li><a href="../homework.html">Домашние задания</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Регистрация</title>
+  <script src="libs/gsap/gsap.min.js" defer></script>
+  <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+  <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+  <link rel="stylesheet" href="sign_in.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <script src="../js/sign_in.js" defer></script>
+</head>
+
+<body>
+
+  <a href="#"><img class="logo_2" src="./images/logo.png"></a>
+
+
+  <div class="wrapper">
+    <div class="content">
+      <header class="header-home">
+        <a href="#"><img class="logo" src="./images/logo.png"></a>
+        <nav class="navbar">
+          <a href="./gallery.html">Галерея</a>
+          <a href="#">Журнал</a>
+          <a href="../events/events.html">Мероприятия</a>
+          <a href="#">Магазин</a>
+        </nav>
+        <a href="#"><img class="sign-in" src="./images/sign_in.png"
+            width="40px"></a>
+      </header>
+      <header class="hero-section">
+        <div data-speed=".6" class="hero">
+          <form action="https://www.ya.ru/search?" id="UserEnter" name="UserEnter" target="_blank" class="form">
+            <h3>Регистрация</h3>
+            <div class="input-box">
+              <input type="text" placeholder="Фамилия" name="Surname">
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Имя" name="Name">
+            </div>
+            <h4>Пол</h4>
+            <div class="radio-align">
+              <div class="input-box-radio">
+                <input type="radio" id="male" name="sex" value="Мужской" checked />
+                <label for="male">Мужской</label>
+              </div>
+              <div class="input-box-radio">
+                <input type="radio" id="female" name="sex" value="Женский" />
+              <label for="female">Женский</label>
+              </div>
+              <div class="input-box-radio">
+                <input type="radio" id="not_given" name="sex" value="Не указан" />
+              <label for="not_givem">Не указан</label>
+              </div>
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="E-mail" name="E-mail">
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Телефон" name="Number">
+            </div>
+            <div class="input-box">
+              <input type="password" placeholder="Пароль" name="Password">
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" id="agreement_1" name="Personal data access" checked />
+              <label for="agreement_1">Подтверждаю согласие на обработку персональных <br>данных</label>
+            </div>
+
+            <div>
+              <input type="checkbox" id="agreement_2" name="Mailing agreement" />
+              <label for="agreement_2">Я хочу получать письма о новых курсах, подкастах <br>и других проектах ИБ</label>
+            </div>
+            <div class="grow-btn"><button class="btn" id="register"
+                onclick="send(this.form)">Зарегистрироваться</button></div>
+          </form>
+        </div>
+        <div class="container">
+          <div data-speed=".5" class="main-header">
+            <h1 class="main-title">Регис-<br>тра-<br>ция</h1>
+          </div>
+        </div>
+        <section class="footer">
+          <div class="footer-content">
+            <img class="footer-logo" src="images/logo.png">
+            <div class="icons">
+              <a href="https://www.youtube.com/watch?v=l9j6_HufWMc"><i class='bx bxl-youtube'></i></a>
+              <a href="https://vk.com/video-29094228_165525295"><i class='bx bxl-vk'></i></a>
+              <a href="https://vk.com/video-29094228_165525295"><i class='bx bxl-telegram'></i></a>
+              <a href="https://www.instagram.com/p/CSKHBhRlOo2/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="><i
+                  class='bx bxl-instagram'></i></a>
+            </div>
+            <p>История, литература, искусство в лекциях, статьях, играх: об искусстве нескучно <br>
+              <br>© 2023 ИБ. Все права защищены
+            </p>
+          </div>
+          <div class="footer-content">
+            <h4>Проект</h4>
+            <ul>
+              <li><a href="../main about_us/about_us.html">О нас</a></li>
+              <li><a href="#">Главная</a></li>
+              <li><a href="./gallery.html">Галерея</a></li>
+              <li><a href="../events/events.html">Мероприятия</a></li>
+              <li><a href="#">Магазин</a></li>
+            </ul>
+          </div>
+          <div class="footer-content">
+            <h4>ИБ</h4>
+            <ul>
+              <li><a href="#">Рекомендации</a></li>
+              <li><a href="#">Инвесторы</a></li>
+              <li><a href="#">Политика <br>конфиденциальности</a></li>
+              <li><a href="#">Правила и условия</a></li>
+            </ul>
+          </div>
+          <div class="footer-content">
+            <h4>Помощь</h4>
+            <ul>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Связаться с нами</a></li>
+              <li><a href="#">Настройки cookie</a></li>
+            </ul>
+          </div>
+          <div class="footer-content">
+            <h4>Дополнительно</h4>
+            <ul>
+              <li><a href="../algorithm/algorithm.html">Алгоритм</a></li>
+              <li><a href="../homework.html">Домашние задания</a></li>
+            </ul>
+          </div>
+        </section>
+        <div class="hide"><img src="./images/4.jpg" width="400px"></div>
+      </header>
+
+    </div>
+  </div>
+</body>
+
+</html>
