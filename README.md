@@ -13,7 +13,7 @@ https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/bill.html
 
 **Контрольная работа:**
 > [!NOTE]
-> [Контрольная работа]
+> [Контрольная работа](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/web_site/home_page/gallery/gallery.html)
 >
 > [Страница с тремя домашними заданиями](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/homework.html)
 >
