@@ -351,7 +351,6 @@ ul {
   display: block;
   justify-items: center;
   align-items: center;
-  margin-left: 8vw;
 }
 .events-images img{
  width: 300px;
@@ -368,7 +367,6 @@ ul {
   display: block;
   justify-items: center;
   align-items: center;
-  margin-left: 8vw;
 }
 .events-images-2 img{
  width: 300px;
@@ -389,4 +387,8 @@ ul {
   position: relative;
   margin-top: calc(var(--index)*8);
   text-align: center;
+}
+
+.hide-img {
+  opacity: 0;
 }
