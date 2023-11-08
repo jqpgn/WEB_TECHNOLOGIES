@@ -14,7 +14,7 @@ https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/event_2.html
 
 **Контрольная работа:**
 > [!NOTE]
-> [Контрольная работа](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/web_site/home_page/gallery/gallery.html)
+> [Контрольная работа](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/web_site/home_page/gallery/gallery.html) 
 >
 > [Страница с тремя домашними заданиями](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/homework.html)
 >
