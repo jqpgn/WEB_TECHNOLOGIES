@@ -15,7 +15,7 @@ div {
     text-align: center;
     display: table-cell;
     vertical-align: middle;
-    font-family: montserrat;
+    font-family: golos-a;
     color: rgb(233, 233, 233);
     font-size: larger;
     font-weight: bold;
@@ -36,4 +36,9 @@ a {
 .grow:hover {
     color: rgb(181, 181, 181);
     font-size: 32px;
+}
+
+@font-face {
+  font-family: golos-a;
+  src: url(../font/GolosText-Regular.ttf);
 }
