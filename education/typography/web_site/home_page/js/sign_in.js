@@ -27,3 +27,8 @@ if (ScrollTrigger.isTouch !==1) {
     })
 
 }
+
+function scrollWin() {
+  window.scrollTo(0, 0);
+    behavior: "smooth";
+}
