@@ -193,6 +193,7 @@ a:hover {
   margin-top: 15px;
   margin-left: 12px;
   width: 65px;
+  z-index: 100;
 }
  
 .sign-in {
@@ -364,4 +365,15 @@ ul {
   margin-top: 20px;
   padding: 20px 20px 20px 15px;
   margin-bottom: 20px;
+}
+
+.hide {
+  opacity: 0;
+}
+
+input[type='radio'] {
+  accent-color: #666666;
+}
+input[type='checkbox'] {
+  accent-color: #666666;
 }

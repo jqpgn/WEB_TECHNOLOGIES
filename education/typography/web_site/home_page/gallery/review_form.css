@@ -194,6 +194,7 @@ a:hover {
   margin-top: 15px;
   margin-left: 12px;
   width: 65px;
+  z-index: 100;
 }
  
 .sign-in {
@@ -413,4 +414,11 @@ input[type="date"] {
   outline: none;
   border: none;
   border-radius: 8px;
+}
+
+input[type='radio'] {
+  accent-color: #666666;
+}
+input[type='checkbox'] {
+  accent-color: #666666;
 }
