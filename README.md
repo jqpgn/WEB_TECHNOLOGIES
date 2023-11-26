@@ -14,9 +14,6 @@ https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/event_2.html
 
 **Контрольная работа:**
 > [!NOTE]
-> [Контрольная работа](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/web_site/home_page/main__about_us/main.html) 
->
-> [Страница с тремя домашними заданиями](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/homework/homework.html)
->
-> [Решение алгоритмической задачи в виде формы](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/algorithm/algorithm.html)
+> [Контрольная работа 2.0](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/web_site/home_page/main__about_us/main.html) 
+
  
