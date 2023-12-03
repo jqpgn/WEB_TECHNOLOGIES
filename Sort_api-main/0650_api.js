@@ -1,5 +1,5 @@
 function sort(){
-    let price=document.getElementById("price")
+    let price=document.getElementById("vendor_code")
     let title=document.getElementById("title")
     if(price.checked){
         document.getElementById('node_for_insert').innerHTML = '';
