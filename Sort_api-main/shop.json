@@ -1,21 +1,5 @@
 [
   {
-    "id": "1",
-    "title": "Vally",
-    "vendor_code": "111",
-    "description": "",
-    "price": 1000,
-    "img": "valli.jpg"
-  },
-  {
-    "id": "2",
-    "title": "CAT",
-    "vendor_code": "222",
-    "description": "Описание 2",
-    "price": 2,
-    "img": "cat.jpg"
-  },
-  {
     "id": "3",
     "title": "Avatar",
     "vendor_code": "333",
