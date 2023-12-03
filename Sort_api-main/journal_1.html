@@ -7,6 +7,8 @@
   <script src="../gallery/libs/gsap/gsap.min.js" defer></script>
   <script src="../gallery/libs/gsap/ScrollSmoother.min.js" defer></script>
   <script src="../gallery/libs/gsap/ScrollTrigger.min.js" defer></script>
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" rel="stylesheet">
 
   <link rel="stylesheet" href="journal.css">
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -30,19 +32,27 @@
         <a href="../gallery/sign_in.html"><img class="sign-in" src="../gallery/images/sign_in.png" width="40px"></a></header>
   
         <div class="container">
-          
-            <div data-speed=".9" class="hero">
-              <div class="text"> 
-                <h3>Журнал</h3>
-                <p>
-                  Здесь публикуются материалы о&nbsp;самом интересном из&nbsp;жизни и&nbsp;творчества Иосифа Бродского. Здесь может быть все что угодно. Это чтение на&nbsp;каждый день: рекомендации, обзоры, списки, инструкции, хрестоматии, монологи специалистов и&nbsp;кое-что другое.   
-                </p>
-              </div>
+          <div class="row">
+            <div class="col">
             </div>
+            <div class="col">
+              <div data-speed=".9" class="hero">
+                <div class="text"> 
+                  <h3>Журнал</h3>
+                  <p>
+                    Здесь публикуются материалы о&nbsp;самом интересном из&nbsp;жизни и&nbsp;творчества Иосифа Бродского. Здесь может быть все что угодно. Это чтение на&nbsp;каждый день: рекомендации, обзоры, списки, инструкции, хрестоматии, монологи специалистов и&nbsp;кое-что другое.   
+                  </p>
+                </div>
+              </div>
+              <ul data-speed=".7" class="events-images" id="node_for_insert"></ul>
+            </div>
+            
+          </div>
+          <input type="radio" id="price" name="sort"  onchange="sort()">По дате</input>
+              <input type="radio" id="title" name="sort"  checked onchange="sort()" >По названию</input>
+            
 
-            <input type="radio" id="price" name="sort"  onchange="sort()"> price  </input>
-             <input type="radio" id="title" name="sort"  checked onchange="sort()" > title </input>
-            <ul data-speed=".7" class="events-images" id="node_for_insert">
+           
 
               <!--начало генерируемого фрагмента кода -->
               </ul>
@@ -156,5 +166,5 @@
   </div>
     
 </body>
-<script src="./0650_api.js"></script>
+<script src="./api/0650_api.js"></script>
 </html>
