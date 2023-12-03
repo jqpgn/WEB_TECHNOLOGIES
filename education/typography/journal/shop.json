@@ -1,0 +1,51 @@
+[
+  {
+    "id": "3",
+    "title": "Avatar",
+    "vendor_code": "333",
+    "description": "Описание 3",
+    "price": 300,
+    "img": "https://raw.githubusercontent.com/jqpgn/WEB_TECHNOLOGIES/main/education/typography/web_site/home_page/journal/images/1.png"
+  },
+  {
+    "id": "4",
+    "title": "Яхта",
+    "vendor_code": "444e",
+    "description": "Описание 4",
+    "price": 1200,
+    "img": "https://raw.githubusercontent.com/jqpgn/WEB_TECHNOLOGIES/main/education/typography/web_site/home_page/journal/images/2.png"
+  }
+  ,
+  {
+    "id": "5",
+    "title": "Zooro",
+    "vendor_code": "4445e",
+    "description": "Описание 6",
+    "price": 400,
+    "img": "https://raw.githubusercontent.com/jqpgn/WEB_TECHNOLOGIES/main/education/typography/journal/images/3.png"
+  },
+  {
+    "id": "6",
+    "title": "Wait",
+    "vendor_code": "4446e",
+    "description": "Описание 6",
+    "price": 400,
+    "img": "https://raw.githubusercontent.com/jqpgn/WEB_TECHNOLOGIES/main/education/typography/journal/images/4.png"
+  },
+  {
+    "id": "7",
+    "title": "Bob",
+    "vendor_code": "4447e",
+    "description": "Описание 7",
+    "price": 700,
+    "img": "https://raw.githubusercontent.com/jqpgn/WEB_TECHNOLOGIES/main/education/typography/journal/images/5.png"
+  },
+  {
+    "id": "8",
+    "title": "Товар 8",
+    "vendor_code": "4448e",
+    "description": "Описание 8",
+    "price": 800,
+    "img": "https://raw.githubusercontent.com/jqpgn/WEB_TECHNOLOGIES/main/education/typography/journal/images/6.png"
+  }
+]
