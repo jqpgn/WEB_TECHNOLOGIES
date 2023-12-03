@@ -13,26 +13,26 @@
 
 @font-face {
   font-family: golos-a;
-  src: url(../font/GolosText-Regular.ttf);
+  src: url(./font/GolosText-Regular.ttf);
 }
 
 @font-face {
   font-family: golos-b;
-  src: url(../font/GolosText-Black.ttf);
+  src: url(./font/GolosText-Black.ttf);
 }
 
 @font-face {
   font-family: golos-c;
-  src: url(../font/GolosText-Bold.ttf);
+  src: url(./font/GolosText-Bold.ttf);
 }
 
 @font-face {
   font-family: golos-italic;
-  src: url(../font/Montserrat-MediumItalic.ttf);
+  src: url(./font/Montserrat-MediumItalic.ttf);
 }
 @font-face {
   font-family: golos-italic-b;
-  src: url(../font/Montserrat-ExtraBoldItalic.ttf);
+  src: url(./font/Montserrat-ExtraBoldItalic.ttf);
 }
 
 body {
