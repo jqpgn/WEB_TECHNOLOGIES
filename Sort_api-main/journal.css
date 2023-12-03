@@ -361,9 +361,9 @@ ul {
 
 
 .events-images {
-  margin-top: calc(var(--index)*12);
+  margin-top: calc(var(--index)*9);
   position: relative;
-  display: flex;
+  display: block;
   justify-items: center;
   align-items: top;
   gap: 40px;
