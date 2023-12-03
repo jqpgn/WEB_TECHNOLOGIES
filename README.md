@@ -16,4 +16,5 @@ https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/event_2.html
 > [!NOTE]
 > [Контрольная работа 2.0](https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/web_site/home_page/main__about_us/main.html) 
 
+https://jqpgn.github.io/WEB_TECHNOLOGIES/education/typography/web_site/home_page/journal/journal_1.html
  
