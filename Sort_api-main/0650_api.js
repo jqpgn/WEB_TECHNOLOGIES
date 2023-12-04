@@ -79,6 +79,7 @@ async function getResponce1() {
                 node_for_insert.innerHTML += `
                 <li style="width: 310px" class="d-flex flex-column m-1 p-1 border bg-body">
                 <img style="width: 260px" class="align-self-center" src=${content[key].img}>
+                <h4 class="card-title">${content[key].date}</h4>
                 <h5 class="card-title">${content[key].title}</h5>
                 <p class="card-text"></p>
                 </li>
