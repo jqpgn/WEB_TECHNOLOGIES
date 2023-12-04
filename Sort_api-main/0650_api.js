@@ -81,7 +81,7 @@ async function getResponce1() {
                 <img style="width: 260px" class="align-self-center" src=${content[key].img}>
                 <h4 class="card-title">${content[key].date}</h4>
                 <h5 class="card-title">${content[key].title}</h5>
-                <p class="card-text"></p>
+                <p class="card-text">${content[key].description}</p>
                 </li>
                         `
             }
