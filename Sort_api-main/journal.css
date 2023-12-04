@@ -363,8 +363,9 @@ ul {
 .events-images {
   margin-top: calc(var(--index)*9);
   position: relative;
-  display: inline-block;
+  display: flex;
   justify-items: center;
+  text-align: center;
   align-items: top;
   gap: 40px;
   margin-left: 18vw;
@@ -379,6 +380,7 @@ ul {
 }
 .events-images p{
   font-size: 13px;
+  color: #9a9a9a;
 }
 
 .events-images img{
