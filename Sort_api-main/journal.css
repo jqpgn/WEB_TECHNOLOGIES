@@ -374,14 +374,17 @@ ul {
 .events-images h4{
   font-size: 16px;
   color: #777777;
+  cursor: pointer;
 }
 .events-images h5{
   font-size: 20px;
   width: 80%;
+  cursor: pointer;
 }
 .events-images p{
   font-size: 13px;
   color: #c0c0c0;
+  cursor: pointer;
 }
 
 .events-images img{
