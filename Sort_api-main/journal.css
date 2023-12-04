@@ -363,7 +363,7 @@ ul {
 .events-images {
   margin-top: calc(var(--index)*9);
   position: relative;
-  display: grid;
+  display: inline-table;
   justify-items: center;
   text-align: center;
   align-items: top;
