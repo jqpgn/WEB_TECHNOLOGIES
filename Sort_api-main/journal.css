@@ -453,7 +453,7 @@ ul {
 
 .sort {
   margin-top: calc(var(--index)*4);
-  margin-left: 14vw;
+  margin-left: 15vw;
   display: relative;
 }
 
