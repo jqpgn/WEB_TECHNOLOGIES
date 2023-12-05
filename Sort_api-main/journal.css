@@ -188,11 +188,9 @@ a:hover {
 }
 
 .logo {
-  position: absolute;
   margin-top: -7px;
-  margin-left: 12px;
   width: 65px;
-  display: none;
+  opacity: 0%;
 }
 .logo_2 {
   position: fixed;
@@ -471,4 +469,77 @@ ul {
 
 input[type='radio'] {
   accent-color: #666666;
+}
+
+@media (max-width: 1100px) {
+  .content {
+    max-width: 960px;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .content  {
+    max-width: 1140px;
+  }
+}
+
+
+@media (max-width: 868px) {
+  .content  {
+    max-width: 720px;
+  }
+  .text h3 {
+    width: 350px;
+    font-size: 84px;
+    margin-left: 0vw;
+    margin-top: 6vh;
+  }
+  .text p {
+    margin-left: -17vw;
+    font-size: 19px;
+    width: 600px;
+  }
+  .events-images {
+    margin-top: 26vh;
+    margin-left: 10vw;
+    display: inline-block;
+    padding-bottom: 20px; 
+
+  }
+
+  .text2 {
+    margin-left: -22vw;
+  }
+  .hero {
+    width: 200px;
+  }
+}
+
+@media (max-width: 460px) {
+  .content {
+    max-width: 440px;
+  }
+  .footer-content {
+    margin-left: 20vw;
+  }
+  
+  .text h3 {
+    width: 150px;
+    font-size: 54px;
+    margin-left: -5vw;
+  }
+  .text p {
+    margin-left: -23vw;
+    font-size: 18px;
+    width: 360px;
+  }
+
+  .events-images {
+    margin-top: 30vh;
+    display: block;
+  }
+  .text2 {
+    margin-left: -55vw;
+  }
 }
