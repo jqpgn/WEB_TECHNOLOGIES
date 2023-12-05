@@ -422,7 +422,7 @@ ul {
 
 .hero2 {
   position: relative;
-  margin-top: calc(var(--index)*8);
+  margin-top: calc(var(--index)*9);
   text-align: center;
   display: block;
   margin-left: calc(var(--index)*28);
