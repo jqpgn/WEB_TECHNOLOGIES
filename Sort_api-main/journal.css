@@ -453,6 +453,7 @@ ul {
 
 .sort {
   margin-left: 5vw;
+  display: relative;
 }
 
 .sort input {
