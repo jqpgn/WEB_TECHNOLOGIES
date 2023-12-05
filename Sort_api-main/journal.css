@@ -454,3 +454,7 @@ ul {
 .sort {
   margin-left: 5vw;
 }
+
+.sort input {
+  padding-right: 8px;
+}
