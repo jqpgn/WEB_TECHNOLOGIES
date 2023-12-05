@@ -455,15 +455,15 @@ ul {
   margin-top: calc(var(--index)*4);
   margin-left: 15vw;
   display: relative;
-  size: 50px;
 }
 
 .sort input {
   margin-left: 10px;
+   font-size: 20px;
 }
 
 .sort h4 {
-  size: 30px;
+  font-size: 30px;
   margin-left: 10px;
 }
 
