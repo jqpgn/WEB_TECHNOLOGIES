@@ -458,3 +458,7 @@ ul {
 .sort input {
   padding-right: 8px;
 }
+
+input[type='radio'] {
+  accent-color: #666666;
+}
