@@ -364,6 +364,7 @@ ul {
   margin-top: calc(var(--index)*9);
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   justify-items: center;
   text-align: center;
   align-items: top;
