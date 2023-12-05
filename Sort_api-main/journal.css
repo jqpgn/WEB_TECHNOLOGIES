@@ -362,7 +362,7 @@ ul {
 
 .events-images {
   margin-top: calc(var(--index)*9);
-  position: absolute;
+  position: relative;
   display: flex;
   justify-items: center;
   text-align: center;
