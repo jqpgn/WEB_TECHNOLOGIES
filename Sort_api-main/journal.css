@@ -452,12 +452,12 @@ ul {
 }
 
 .sort {
-  margin-left: 5vw;
+  margin-left: 10vw;
   display: relative;
 }
 
 .sort input {
-  padding-right: 8px;
+  margin-right: 8px;
 }
 
 input[type='radio'] {
