@@ -453,16 +453,17 @@ ul {
 
 .sort {
   margin-top: calc(var(--index)*4);
-  margin-left: 15vw;
+  margin-left: 18vw;
   display: relative;
 }
 
 .sort input {
-  margin-left: 8px;
+  margin-left: 10px;
 }
 
 .sort h4 {
-  size: 20px;
+  size: 30px;
+  margin-left: 10px;
 }
 
 input[type='radio'] {
