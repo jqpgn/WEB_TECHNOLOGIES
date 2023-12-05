@@ -31,7 +31,7 @@ async function getResponce() {
     //node_for_insert.innerHTML='';
     for (key in content_price) {
                 node_for_insert.innerHTML += `
-                <li style="width: 280px">
+                <li style="width: 300px">
                 <img style="width: 240px" class="align-self-center" src=${content[key].img}>
                 <h4 class="card-title">${content[key].date}</h4>
                 <h5 class="card-title">${content[key].title}</h5>
