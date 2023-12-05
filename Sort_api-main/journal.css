@@ -460,6 +460,10 @@ ul {
   margin-right: 8px;
 }
 
+.sort h4 {
+  size: 20px;
+}
+
 input[type='radio'] {
   accent-color: #666666;
 }
