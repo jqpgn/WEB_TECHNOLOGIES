@@ -382,6 +382,7 @@ ul {
   font-size: 20px;
   cursor: pointer;
   margin-top: 7px;
+  line-width: 280px;
 }
 .events-images p{
   font-size: 13px;
