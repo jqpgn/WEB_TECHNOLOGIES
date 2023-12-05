@@ -452,12 +452,13 @@ ul {
 }
 
 .sort {
-  margin-left: 10vw;
+  margin-top: calc(var(--index)*4);
+  margin-left: 15vw;
   display: relative;
 }
 
 .sort input {
-  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .sort h4 {
