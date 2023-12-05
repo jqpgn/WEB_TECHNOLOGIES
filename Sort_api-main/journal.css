@@ -361,7 +361,7 @@ ul {
 
 
 .events-images {
-  margin-top: calc(var(--index)*4);
+  margin-top: calc(var(--index)*3);
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -452,7 +452,7 @@ ul {
 }
 
 .sort {
-  margin-top: calc(var(--index)*17);
+  margin-top: calc(var(--index)*15);
   margin-left: 16vw;
   display: relative;
 }
