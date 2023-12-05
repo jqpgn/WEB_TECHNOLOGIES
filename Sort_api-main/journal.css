@@ -455,6 +455,7 @@ ul {
   margin-top: calc(var(--index)*4);
   margin-left: 15vw;
   display: relative;
+  size: 50px;
 }
 
 .sort input {
