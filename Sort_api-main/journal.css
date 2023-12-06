@@ -502,7 +502,7 @@ input[type='radio'] {
   }
 .events-images {
     margin-top: 3vh;
-    margin-left: 25vw;
+    margin-left: 30vw;
     display: inline-block;
     padding-bottom: 20px; 
 
@@ -515,7 +515,7 @@ input[type='radio'] {
     width: 200px;
   }
   .sort {
-    margin-top: 45vh;
+    margin-top: 55vh;
     margin-left: 9vw;
   }
 }
@@ -549,6 +549,6 @@ input[type='radio'] {
     margin-top: 70vh;
   }
   .sort {
-    margin-top: 50vh;
+    margin-top: 60vh;
   }
 }
