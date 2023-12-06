@@ -542,4 +542,7 @@ input[type='radio'] {
   .text2 {
     margin-left: -55vw;
   }
+  .sort {
+    margin-top: 10vh;
+  }
 }
