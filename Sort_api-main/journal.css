@@ -540,13 +540,15 @@ input[type='radio'] {
   }
 
   .events-images {
-    margin-top: 30vh;
+    margin-top: 5vh;
     display: block;
+    margin-left: 11vw;
   }
   .text2 {
-    margin-left: -55vw;
+    margin-left: -62vw;
+    margin-top: 70vh;
   }
   .sort {
-    margin-top: 10vh;
+    margin-top: 50vh;
   }
 }
