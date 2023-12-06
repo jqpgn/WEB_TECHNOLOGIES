@@ -500,9 +500,10 @@ input[type='radio'] {
     font-size: 19px;
     width: 600px;
   }
-  .events-images {
-    margin-top: 26vh;
+.events-images {
+    margin-top: 2vh;
     margin-left: 25vw;
+    margin-bottom: 20vh;
     display: inline-block;
     padding-bottom: 20px; 
 
@@ -516,6 +517,7 @@ input[type='radio'] {
   }
   .sort {
     margin-top: 10vh;
+    margin-left: 10vw;
   }
 }
 
